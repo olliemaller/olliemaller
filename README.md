@@ -1,74 +1,79 @@
-<h1 align="center">Oliver Maller</h1>
-<p align="center"><code>Founder & Director, Arcnode IT</code></p>
-<p align="center"><sub>Melbourne, Australia</sub></p>
+<h1 align="center">Hi, I'm Oliver Maller 👋</h1>
 
-```bash
-> whoami
-olivermaller
-
-> echo $ROLE
-Founder & Director @ Arcnode IT
-
-> echo $STACK
-Proxmox | Docker | Kubernetes | Linux | macOS | Windows | Python | JavaScript
-
-> echo $AI_COMPANIONS
-ChatGPT, Claude
-```
-
-### 🛠 Tools & Languages
-
-<p>
-  <a href="https://linux.org" target="_blank">
-    <img src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=ffffff" alt="Linux Badge" />
-  </a>
-  <a href="https://www.apple.com/macos" target="_blank">
-    <img src="https://img.shields.io/badge/macOS-000?style=for-the-badge&logo=apple&logoColor=ffffff" alt="macOS Badge" />
-  </a>
-  <a href="https://www.microsoft.com/windows" target="_blank">
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=ffffff" alt="Windows Badge" />
-  </a>
-  <a href="https://www.docker.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff" alt="Docker Badge" />
-  </a>
-  <a href="https://kubernetes.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=ffffff" alt="Kubernetes Badge" />
-  </a>
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" alt="Python Badge" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript Badge" />
-  </a>
-  <a href="https://www.terraform.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=ffffff" alt="Terraform Badge" />
-  </a>
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=ffffff" alt="AWS Badge" />
-  </a>
-  <a href="https://azure.microsoft.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=azure-devops&logoColor=ffffff" alt="Azure Badge" />
+<p align="center">
+  <a href="https://github.com/olliemaller">
+    <!-- Animated typing banner shows multiple roles and interests -->
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=800&color=00FFD1&width=600&lines=Founder+%26+Director+@+Arcnode+IT;Virtualization+Guru;OS+Aficionado;AI+Companion+Fan" alt="Typing banner"/>
   </a>
 </p>
 
-### 📈 GitHub Stats
-
+<!-- Live visitor counter -->
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=olliemaller&show_icons=true&theme=codeSTACKr&count_private=true&hide_border=true" height="165" alt="Stats" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=olliemaller&layout=compact&theme=codeSTACKr&hide_border=true" height="165" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=olliemaller&theme=codeSTACKr&hide_border=true" height="150" alt="GitHub Streak" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=olliemaller.olliemaller&left_color=grey&right_color=blue" alt="Visitor Badge"/>
 </p>
 
-### 💬 Dev Quote of the Day
+### 🚀 About Me
+
+- Founder & Director at **Arcnode IT**
+- Focus on virtualization and cloud solutions (Proxmox, Docker, Kubernetes)
+- Multi‑platform power user (macOS, Windows, Linux)
+- AI companion fan (ChatGPT, Claude)
+
+### 🧰 Tech Stack & Tools
+
+**Virtualization & Containerization**
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Programming Quote" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark&perline=4" alt="Virtualization Icons"/>
+</p>
+
+**Operating Systems**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,apple,windows&theme=dark&perline=4" alt="Operating Systems Icons"/>
+</p>
+
+**Languages & Scripting**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,bash&theme=dark&perline=4" alt="Languages Icons"/>
+</p>
+
+**Cloud & Infrastructure**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,terraform&theme=dark&perline=4" alt="Cloud & IaC Icons"/>
+</p>
+
+### 📊 GitHub Stats & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=olliemaller&show_icons=true&theme=codeSTACKr&count_private=true&hide_border=true&icon_color=00FFD1" height="165" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=olliemaller&layout=compact&theme=codeSTACKr&hide_border=true" height="165" alt="Top Languages"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=olliemaller&theme=codeSTACKr&hide_border=true" height="150" alt="GitHub Streak"/>
+</p>
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=olliemaller&bg_color=0d1117&color=00FFD1&line=00FFD1&point=00FFD1&area=true&hide_border=true" alt="GitHub Activity Graph"/>
+  </a>
+</p>
+
+### 🖬 Programming Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Programming Quote"/>
+</p>
+
+### 😂 Dev Joke
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230D1117&textColor=%23ffffff" alt="Random Dev Joke"/>
 </p>
 
 ---
 
 ### 🤝 Connect with Me
 
-Feel free to reach out for collaborations or discussions. You can find me here on [GitHub](https://github.com/olliemaller).
+Feel free to reach out for collaborations or discussions. Connect with me here on [GitHub](https://github.com/olliemaller).
