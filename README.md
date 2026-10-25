@@ -44,14 +44,10 @@
   </picture>
 </p>
 
-## Just for fun
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark" alt="Programming quote">
-</p>
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230A0A0F&textColor=%23F5F5F7&aColor=%23378ADD&qColor=%2385B7EB" alt="Dev joke">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olliemaller/olliemaller/output/fun-dark.svg">
+  <img src="https://raw.githubusercontent.com/olliemaller/olliemaller/output/fun-light.svg" width="100%" alt="Quote of the day and joke of the day.">
+</picture>
 
 <br>
 

@@ -140,6 +140,82 @@ def render(s: dict, theme: str) -> str:
     return "\n".join(out)
 
 
+QUOTES = [
+    ("A program that produces incorrect results twice as fast is infinitely slower.", "John Ousterhout"),
+    ("Simplicity is prerequisite for reliability.", "Edsger W. Dijkstra"),
+    ("First, solve the problem. Then, write the code.", "John Johnson"),
+    ("Make it work, make it right, make it fast.", "Kent Beck"),
+    ("The best way to predict the future is to invent it.", "Alan Kay"),
+    ("Programs must be written for people to read, and only incidentally for machines to execute.", "Harold Abelson"),
+    ("Any sufficiently advanced technology is indistinguishable from magic.", "Arthur C. Clarke"),
+    ("Talk is cheap. Show me the code.", "Linus Torvalds"),
+    ("It's not a bug, it's an undocumented feature.", "Anonymous"),
+    ("The most dangerous phrase in the language is: we've always done it this way.", "Grace Hopper"),
+    ("Debugging is twice as hard as writing the code in the first place.", "Brian Kernighan"),
+]
+JOKES = [
+    ("Why do network engineers make great comedians?", "Their timing is always under 20 ms."),
+    ("Why did the access point go to therapy?", "Too many unresolved connection issues."),
+    ("What's a homelabber's favourite exercise?", "Rack pulls."),
+    ("Why did the smart home break up with the router?", "It felt the connection was one-sided."),
+    ("How many sysadmins does it take to change a light bulb?", "None. It works on my machine."),
+    ("Why did the functional programmer get thrown out of school?", "Because he refused to take classes."),
+    ("Why don't packets ever get lonely?", "They always travel in a stream."),
+    ("What did the switch say to the patch cable?", "You complete me, port 24."),
+    ("Why was the VLAN so calm?", "It kept everything separated."),
+    ("Why do programmers prefer dark mode?", "Because light attracts bugs."),
+    ("Why did the DNS server go on holiday?", "It needed to resolve some issues."),
+    ("What's an alarm installer's favourite music?", "Anything with a good entry delay."),
+]
+
+
+def _wrap(text: str, width: int) -> list[str]:
+    lines, line = [], ""
+    for word in text.split():
+        if len(line) + len(word) + 1 > width and line:
+            lines.append(line)
+            line = word
+        else:
+            line = f"{line} {word}".strip()
+    lines.append(line)
+    return lines
+
+
+def render_fun(day: dt.date, theme: str) -> str:
+    t = THEMES[theme]
+    n = day.toordinal()
+    quote, author = QUOTES[n % len(QUOTES)]
+    question, answer = JOKES[(n // 3) % len(JOKES)]
+    W, P, half = 880, 32, 440
+    q_lines = _wrap(f"“{quote}”", 38)
+    j_lines = _wrap(question, 40)
+    a_lines = _wrap(answer, 40)
+    body_h = max(len(q_lines) * 26 + 34, (len(j_lines) + len(a_lines)) * 24 + 22)
+    H = 76 + body_h + 34
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Quote and joke of the day">',
+        f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="{t["card"]}" stroke="{t["line"]}"/>',
+        f'<line x1="{half}" y1="28" x2="{half}" y2="{H-28}" stroke="{t["line"]}"/>',
+        f'<text x="{P}" y="44" font-family="{MONO}" font-size="12" font-weight="500" letter-spacing="2.2" fill="{t["accent"]}">QUOTE OF THE DAY</text>',
+        f'<text x="{half+P}" y="44" font-family="{MONO}" font-size="12" font-weight="500" letter-spacing="2.2" fill="{t["accent"]}">JOKE OF THE DAY</text>',
+    ]
+    y = 80
+    for line in q_lines:
+        out.append(f'<text x="{P}" y="{y}" font-family="{SANS}" font-size="18" font-weight="600" letter-spacing="-0.2" fill="{t["ink"]}">{escape(line)}</text>')
+        y += 26
+    out.append(f'<text x="{P}" y="{y+8}" font-family="{SANS}" font-size="14" fill="{t["muted"]}">{escape(author)}</text>')
+    y = 80
+    for line in j_lines:
+        out.append(f'<text x="{half+P}" y="{y}" font-family="{SANS}" font-size="16" font-weight="600" fill="{t["ink"]}">{escape(line)}</text>')
+        y += 24
+    y += 10
+    for line in a_lines:
+        out.append(f'<text x="{half+P}" y="{y}" font-family="{SANS}" font-size="16" fill="{t["accent"]}">{escape(line)}</text>')
+        y += 24
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main() -> None:
     data = json.load(open(os.environ["STATS_FIXTURE"])) if os.environ.get("STATS_FIXTURE") else fetch()
     s = summarise(data)
@@ -147,6 +223,8 @@ def main() -> None:
     for theme in THEMES:
         with open(os.path.join(OUT, f"stats-{theme}.svg"), "w") as f:
             f.write(render(s, theme))
+        with open(os.path.join(OUT, f"fun-{theme}.svg"), "w") as f:
+            f.write(render_fun(dt.date.today(), theme))
     print(json.dumps({k: (str(v) if k == "updated" else v) for k, v in s.items()}))
 
 
