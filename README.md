@@ -31,13 +31,11 @@
 
 ## Activity
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=olliemaller&show_icons=true&count_private=true&hide_border=true&bg_color=0A0A0F&title_color=378ADD&icon_color=378ADD&text_color=A9B2C0&ring_color=185FA5" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=olliemaller&layout=compact&hide_border=true&bg_color=0A0A0F&title_color=378ADD&text_color=A9B2C0" height="165" alt="Top languages">
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=olliemaller&hide_border=true&background=0A0A0F&ring=185FA5&fire=378ADD&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=378ADD&sideLabels=A9B2C0&dates=A9B2C0&stroke=0C447C" height="150" alt="Contribution streak">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olliemaller/olliemaller/output/stats-dark.svg">
+  <img src="https://raw.githubusercontent.com/olliemaller/olliemaller/output/stats-light.svg" width="100%" alt="GitHub activity: contributions in the last 12 months, current and longest streak, repositories and languages.">
+</picture>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/olliemaller/olliemaller/output/snake-dark.svg">
