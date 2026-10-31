@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="222" viewBox="0 0 880 222" role="img" aria-label="Quote and joke of the day">
+<rect x="0.5" y="0.5" width="879" height="221" rx="16" fill="#141416" stroke="#26292F"/>
+<line x1="440" y1="28" x2="440" y2="194" stroke="#26292F"/>
+<text x="32" y="44" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2" fill="#378ADD">QUOTE OF THE DAY</text>
+<text x="472" y="44" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2" fill="#378ADD">JOKE OF THE DAY</text>
+<text x="32" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#F5F5F7">“Programs must be written for people</text>
+<text x="32" y="106" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#F5F5F7">to read, and only incidentally for</text>
+<text x="32" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#F5F5F7">machines to execute.”</text>
+<text x="32" y="166" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#A9B2C0">Harold Abelson</text>
+<text x="472" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F5F5F7">How many sysadmins does it take to</text>
+<text x="472" y="104" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F5F5F7">change a light bulb?</text>
+<text x="472" y="138" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#378ADD">None. It works on my machine.</text>
+</svg>
