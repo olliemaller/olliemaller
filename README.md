@@ -24,6 +24,20 @@
 
 <br>
 
+<a href="https://github.com/olliemaller/ha-nec-pbx">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/project-nec-dark.png">
+    <img src="assets/project-nec-light.png" width="100%" alt="New project: ha-nec-pbx, NEC SL2100 and SV9100 for Home Assistant. Who called, which room answered and what was missed, read from the phone system's own call log over the network. No CTI licence, no cloud and no extra software on the PBX.">
+  </picture>
+</a>
+
+<p>
+  <a href="https://github.com/olliemaller/ha-nec-pbx"><b>View the repository</b></a> ·
+  <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=olliemaller&repository=ha-nec-pbx&category=integration">Open in HACS</a>
+</p>
+
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/toolbox-dark.png">
   <img src="assets/toolbox-light.png" width="100%" alt="Toolbox. Networks and smart home: UniFi Network, UniFi Protect, UniFi Access, Apple HomeKit, Home Assistant, Homebridge, ESPHome, Paradox, ICT Protege. Homelab and infrastructure: Proxmox, Docker, Kubernetes, Linux, Cloudflare, AWS, Azure, Terraform. Code and everyday: Python, JavaScript, Bash, Git, GitHub Actions, macOS, Windows.">
