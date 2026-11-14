@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="196" viewBox="0 0 880 196" role="img" aria-label="Quote and joke of the day">
+<rect x="0.5" y="0.5" width="879" height="195" rx="16" fill="#141416" stroke="#26292F"/>
+<line x1="440" y1="28" x2="440" y2="168" stroke="#26292F"/>
+<text x="32" y="44" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2" fill="#378ADD">QUOTE OF THE DAY</text>
+<text x="472" y="44" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2" fill="#378ADD">JOKE OF THE DAY</text>
+<text x="32" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#F5F5F7">“It&#x27;s not a bug, it&#x27;s an undocumented</text>
+<text x="32" y="106" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.2" fill="#F5F5F7">feature.”</text>
+<text x="32" y="140" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#A9B2C0">Anonymous</text>
+<text x="472" y="80" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F5F5F7">Why was the VLAN so calm?</text>
+<text x="472" y="114" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#378ADD">It kept everything separated.</text>
+</svg>
