@@ -29,15 +29,15 @@ query($login: String!) {
 """
 
 THEMES = {
-    "dark": {"card": "#141416", "line": "#26292F", "ink": "#F5F5F7", "muted": "#A9B2C0",
-             "faint": "#7D8796", "accent": "#378ADD", "track": "#1B1D21",
-             "langs": ["#378ADD", "#185FA5", "#85B7EB", "#0C447C", "#B5D4F4", "#4A5568"]},
-    "light": {"card": "#FFFFFF", "line": "#E3E6EA", "ink": "#0A0A0F", "muted": "#4A5568",
-              "faint": "#5F6B7A", "accent": "#185FA5", "track": "#EEF1F4",
-              "langs": ["#185FA5", "#378ADD", "#85B7EB", "#0C447C", "#B5D4F4", "#A9B2C0"]},
+    "dark": {"card": "#000000", "line": "#26262B", "ink": "#FFFFFF", "muted": "#A1A1AA",
+             "faint": "#8A8A93", "accent": "#FFFFFF", "track": "#0E0E10",
+             "langs": ["#FFFFFF", "#C4C4CC", "#8A8A93", "#5E5E66", "#3F3F46", "#26262B"]},
+    "light": {"card": "#FFFFFF", "line": "#E4E4E7", "ink": "#000000", "muted": "#52525B",
+              "faint": "#63636B", "accent": "#000000", "track": "#F6F6F7",
+              "langs": ["#000000", "#3F3F46", "#63636B", "#8A8A93", "#B4B4BC", "#D4D4D8"]},
 }
 SANS = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-MONO = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+MONO = "ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace"
 
 
 def fetch() -> dict:
