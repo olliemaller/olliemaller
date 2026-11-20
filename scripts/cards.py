@@ -8,6 +8,7 @@ PNG is rendered from avatar.svg with rsvg-convert if it's installed.
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import subprocess
 from html import escape
@@ -116,17 +117,40 @@ def heading(theme: str, label: str, title: str, sub: str) -> str:
     return "\n".join(out)
 
 
+ICONS = os.path.join(OUT, "icons")
+
+
+def icon(repo: str, x: float, y: float, size: float, theme: str) -> str:
+    """The project's icon (same as maller.com.au), nested as an inline SVG."""
+    path = os.path.join(ICONS, f"{repo}.svg")
+    if not os.path.exists(path):
+        path = os.path.join(ICONS, "default.svg")
+    with open(path, encoding="utf-8") as f:
+        svg = f.read().strip()
+    svg = re.sub(r"^<svg\b[^>]*>", f'<svg x="{x}" y="{y}" width="{size}" height="{size}" viewBox="0 0 256 256">', svg)
+    ring = ""
+    if theme == "dark":
+        # A black tile on a black card needs an edge to be seen.
+        r = size * 56 / 256
+        o = size * 8 / 256
+        ring = (f'<rect x="{x+o:.1f}" y="{y+o:.1f}" width="{size-2*o:.1f}" height="{size-2*o:.1f}" '
+                f'rx="{r:.1f}" fill="none" stroke="{THEMES[theme]["line"]}" stroke-width="2"/>')
+    return svg + ring
+
+
 def project(theme: str, idx: int, repo: str, kind: str, title: str, blurb: str) -> str:
     t = THEMES[theme]
-    lines = wrap(blurb, 92)
+    lines = wrap(blurb, 84)
     H = 132 + len(lines) * 24
+    X = P + 80
     out = svg_open(W, H, f"{title}. {kind}. {blurb}", t)
-    out.append(f'<text x="{P}" y="{P+12}" font-family="{MONO}" font-size="12" letter-spacing="2" fill="{t["faint"]}">{idx:02d}  ·  {escape(kind.upper())}</text>')
+    out.append(icon(repo, P - 4, P - 4, 64, theme))
+    out.append(f'<text x="{X}" y="{P+12}" font-family="{MONO}" font-size="12" letter-spacing="2" fill="{t["faint"]}">{idx:02d}  ·  {escape(kind.upper())}</text>')
     out.append(f'<text x="{W-P}" y="{P+12}" text-anchor="end" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{t["muted"]}">{escape(repo)}  ↗</text>')
-    out.append(f'<text x="{P}" y="{P+52}" font-family="{SANS}" font-size="24" font-weight="700" letter-spacing="-0.5" fill="{t["ink"]}">{escape(title)}</text>')
+    out.append(f'<text x="{X}" y="{P+48}" font-family="{SANS}" font-size="24" font-weight="700" letter-spacing="-0.5" fill="{t["ink"]}">{escape(title)}</text>')
     y = P + 86
     for line in lines:
-        out.append(f'<text x="{P}" y="{y}" font-family="{SANS}" font-size="15.5" fill="{t["muted"]}">{escape(line)}</text>')
+        out.append(f'<text x="{X}" y="{y}" font-family="{SANS}" font-size="15.5" fill="{t["muted"]}">{escape(line)}</text>')
         y += 24
     out.append("</svg>")
     return "\n".join(out)
