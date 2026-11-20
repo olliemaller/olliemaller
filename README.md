@@ -65,7 +65,7 @@
 
 <p>
   <a href="https://github.com/olliemaller/aok-blind-bridge"><b>Repository</b></a> ·
-  <a href="https://olliemaller.github.io/aok-blind-bridge/">Install from your browser</a>
+  <a href="https://blinds.maller.com.au/">Install from your browser</a>
 </p>
 
 <a href="https://github.com/olliemaller/joyhome-knx-kernel">
