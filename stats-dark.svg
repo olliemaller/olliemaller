@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="262" viewBox="0 0 880 262" role="img" aria-label="GitHub activity for olliemaller">
+<rect x="0.5" y="0.5" width="879" height="261" rx="16" fill="#000000" stroke="#26262B"/>
+<text x="32" y="44" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2" fill="#FFFFFF">ACTIVITY</text>
+<text x="848" y="44" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#8A8A93">UPDATED 28 NOV 2026</text>
+<text x="32.0" y="108" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#FFFFFF" style="font-variant-numeric:tabular-nums">2,597</text>
+<text x="32.0" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Contributions (12 months)</text>
+<line x1="222.0" y1="70" x2="222.0" y2="134" stroke="#26262B"/>
+<text x="236.0" y="108" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#FFFFFF" style="font-variant-numeric:tabular-nums">13</text>
+<text x="236.0" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Current streak (days)</text>
+<line x1="426.0" y1="70" x2="426.0" y2="134" stroke="#26262B"/>
+<text x="440.0" y="108" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#FFFFFF" style="font-variant-numeric:tabular-nums">14</text>
+<text x="440.0" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Longest streak (days)</text>
+<line x1="630.0" y1="70" x2="630.0" y2="134" stroke="#26262B"/>
+<text x="644.0" y="108" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="#FFFFFF" style="font-variant-numeric:tabular-nums">12</text>
+<text x="644.0" y="132" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Repositories</text>
+<line x1="32" y1="158" x2="848" y2="158" stroke="#26262B"/>
+<text x="32" y="188" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.8" fill="#8A8A93">LANGUAGES, OWN REPOSITORIES</text>
+<clipPath id="bar"><rect x="32" y="202" width="816" height="10" rx="5"/></clipPath>
+<rect x="32" y="202" width="816" height="10" rx="5" fill="#0E0E10"/>
+<g clip-path="url(#bar)">
+<rect x="32.0" y="202" width="595.7" height="10" fill="#FFFFFF"/>
+<rect x="627.7" y="202" width="108.3" height="10" fill="#C4C4CC"/>
+<rect x="736.0" y="202" width="69.9" height="10" fill="#8A8A93"/>
+<rect x="805.9" y="202" width="18.1" height="10" fill="#5E5E66"/>
+<rect x="824.0" y="202" width="11.9" height="10" fill="#3F3F46"/>
+<rect x="835.9" y="202" width="12.1" height="10" fill="#26262B"/>
+</g>
+<circle cx="37.0" cy="236" r="5" fill="#FFFFFF"/>
+<text x="48.0" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Python 73.0%</text>
+<circle cx="158.2" cy="236" r="5" fill="#C4C4CC"/>
+<text x="169.2" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">C++ 13.3%</text>
+<circle cx="256.6" cy="236" r="5" fill="#8A8A93"/>
+<text x="267.6" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">HTML 8.6%</text>
+<circle cx="355.0" cy="236" r="5" fill="#5E5E66"/>
+<text x="366.0" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">JavaScript 2.2%</text>
+<circle cx="499.0" cy="236" r="5" fill="#3F3F46"/>
+<text x="510.0" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">CSS 1.5%</text>
+<circle cx="589.8" cy="236" r="5" fill="#26262B"/>
+<text x="600.8" y="240.5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#A1A1AA">Other 1.5%</text>
+</svg>
